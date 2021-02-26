@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    background-color: grey;
+    height: 100px;
+    display: flex;
+}
+
+#main {
+    background-color: khaki;
+    height: 570px;
+    display: flex;
+}
+
+#footer{
+    background-color: grey;
+    height: 50px;
+    display: flex;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+}
+
+.btn-small{
+    width :150px;
+    height: 40px;
+}
+
+.btn-primary {
+    background-color: dodgerblue;
+}
+
+.btn-secondary{
+    background-color: green;
+}
+
+.btn-dander{
+    background-color: red;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.btn-alerts {
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.btn-disable{
+    visibility: hidden;
+}
+
